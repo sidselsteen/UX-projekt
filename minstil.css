@@ -3,19 +3,49 @@
     padding: 0;
 }
 
+/* index.html */
 
 #bgfarve {
-background-color: gray; 
+    background-color: gray;
 }
 
-.comewell {
-    
+.wrapper {}
+
+.txtBanner {
+    display: flex;
+    justify-content: center;
+    margin-top: 12%;
 }
+
+
+.flagWrapper {
+    width: 450px;
+    margin: 0 auto;
+}
+
+.flag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-top: 40px;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.flagimg {
+    width: 76px;
+    height: 103px;
+    margin: 20px;
+}
+
+
 
 header {
     width: 170px;
     margin-left: 0px;
-} 
+}
 
 
 
@@ -24,7 +54,7 @@ header {
     font-size: 1.4em;
     line-height: 1.4em;
     margin-bottom: 20px;
-    text-align: center; 
+    text-align: center;
 
 }
 
@@ -36,11 +66,11 @@ nav {
     color: #ae8e6f;
 
 
-} */ 
+} */
 
 nav img {
     width: 90px;
-    
+
 
 }
 
@@ -51,7 +81,7 @@ nav img {
 nav {
     color: black;
     padding-bottom: 20px;
-    padding-top: 30px; 
+    padding-top: 30px;
     position: sticky;
     top: 0px;
     z-index: 2;
@@ -65,8 +95,8 @@ nav li {
     padding-right: 100px;
     font-family: helvetica neue;
     font-size: 15px;
-    padding-left: 1em; 
-    
+    padding-left: 1em;
+
 }
 
 
@@ -82,16 +112,14 @@ a {
 
 #flexbox {
     display: grid;
-    grid-template-columns: 1fr 1fr; 
-    
+    grid-template-columns: 1fr 1fr;
+
 }
 
 #menu {
-     background-color: #a0886d;
+    background-color: #a0886d;
 }
 
 #indhold {}
 
-iframe {
-
-}
+iframe {}
