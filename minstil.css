@@ -7,8 +7,8 @@
 
 #bgfarve {
     background-image: url(images/aarhus.png);
-    background-repeat: no-repeat; 
-    background-size: cover; 
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .wrapper {}
@@ -41,15 +41,6 @@
     height: 103px;
     margin: 20px;
 }
-
-
-
-header {
-    width: 170px;
-    margin-left: 0px;
-}
-
-
 
 #main-nav a {
     display: block;
@@ -97,8 +88,8 @@ nav li {
     padding-right: 100px;
     font-family: helvetica neue;
     font-size: 15px;
-    padding-left: 1em;     
-    transition: 0.5s; 
+    padding-left: 1em;
+    transition: 0.5s;
 }
 
 
@@ -120,16 +111,33 @@ a {
 
 #flexbox {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 170px 1fr;
 
 }
 
 #menu {
-    background-color:   #396060; 
+    background-color: #396060;
+    width: 170px;
+    margin-left: 0px;
 }
+
 
 #indhold {
-    background-color: #396060; 
+    background-color: #396060;
 }
 
-iframe {}
+#checkin {
+    background-color: #fff;
+}
+
+h1 {text-align: center;
+padding-top: 50px;}
+
+#check-grid{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+#checkin_info {
+    place-self: center; 
+}
