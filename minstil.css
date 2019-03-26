@@ -3,6 +3,8 @@
     padding: 0;
 }
 
+
+
 /* index.html */
 
 #bgfarve {
@@ -118,9 +120,15 @@ a {
     color: white;
 }
 
+h1 {
+    color: white; 
+    font-family: helvetica neue; 
+}
+
+
 #flexbox {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 170px 1fr;
 
 }
 
@@ -130,6 +138,17 @@ a {
 
 #indhold {
     background-color: #396060; 
+    width: 100%; 
+}
+
+#billeder {
+    width: 100%; 
 }
 
 iframe {}
+
+#galleri {
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 1fr; 
+}
