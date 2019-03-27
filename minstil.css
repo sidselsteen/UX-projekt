@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-
+font-family: 'Source Sans Pro', sans-serif;
 
 /* index.html */
 
@@ -127,7 +127,6 @@ a {
 
 
 #indhold {
-<<<<<<< HEAD
     background-color: #396060; 
     width: 100%; 
 }
@@ -142,7 +141,6 @@ iframe {}
     display: grid; 
     grid-template-columns: 1fr 1fr; 
     grid-template-rows: 1fr 1fr; 
-=======
     background-color: #396060;
 }
 
@@ -160,5 +158,5 @@ padding-top: 50px;}
 
 #checkin_info {
     place-self: center; 
->>>>>>> 2d67075bef0edaced08cb847bad724984b08b9e0
 }
+
