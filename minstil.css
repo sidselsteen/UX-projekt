@@ -212,12 +212,19 @@ h3 {
     font-size: 20px;
     font-family: 'Source Sans Pro', sans-serif;
 }
+<<<<<<< HEAD
 
 #booking_knap {
     text-align: center;
 
 }
+=======
+>>>>>>> 41942f2bdf44031937030a85c9b378b43a3c6fef
 
+#booking_knap {
+    text-align: center;
+
+}
 
 /* FACILITET */
 
@@ -303,6 +310,7 @@ h3 {
     background-color:  #334E4E;
 }
 
+<<<<<<< HEAD
 
 /*MØDELOKALER*/
 
@@ -395,3 +403,6 @@ h3 {
 .button:hover {
     background-color:  #334E4E;
 }
+=======
+
+>>>>>>> 41942f2bdf44031937030a85c9b378b43a3c6fef
