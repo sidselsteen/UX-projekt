@@ -126,36 +126,93 @@ a {
 
 
 #indhold {
-    background-color: #396060; 
-    width: 100%; 
+    background-color: #396060;
+    width: 100%;
 }
 
 #billeder {
-    width: 100%; 
+    width: 100%;
 }
 
 iframe {}
 
+<<<<<<< HEAD
 
 
 /* CHECK IND */ 
+=======
+#galleri {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: #396060;
+}
+>>>>>>> bb1aadac6377d4d6e950ee9f2b819f12eb374ff2
 
 #checkin {
-    background-color: #fff;
+    background-image: url(images/check_in.png);
+    background: cover;
 }
 
-h1, h3 {text-align: center;
-padding-top: 50px;}
+h1,
+h3 {
+    text-align: center;
+    padding-top: 50px;
+}
+
 
 
 #check-grid{
+ 
     display: grid;
     grid-template-rows: 1fr 1fr;
 }
 
 #checkin_info {
-    place-self: center; 
+    place-self: center;
 }
+
+/*restaurant.html*/
+
+#restaurant {
+    background-image: url(images/restaurant_v.png);
+    background-size: cover;
+}
+
+#R_overskrift {
+    color: white;
+    margin-top: 10%;
+    margin-bottom: 8%;
+    font-size: 250%;
+}
+
+#grid-wrap {
+    display: grid;
+    grid-template-rows: 100px 1fr;
+}
+
+#booking_knap {
+    place-self: center; 
+    color: white;
+    background-color: #396060; 
+    opacity: 0.8;
+    font-size: 20px;
+    padding: 2%;
+    border: none;
+}
+
+#tekstboks {
+    background-color: #396060;
+    place-self: center;
+    margin: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 2%;
+    opacity: 0.8;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
 
 
 /* FACILITET */
@@ -240,5 +297,15 @@ padding-top: 50px;}
 
 .button:hover {
     background-color:  #334E4E;
+}
+
+#tekstboks p {
+    color: white;
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#booking_knap {
+    text-align: center;
 
 }
