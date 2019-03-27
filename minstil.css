@@ -213,7 +213,16 @@ h3 {
     padding-right: 5%;
 }
 
+#tekstboks p {
+    color: white;
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
 
+#booking_knap {
+    text-align: center;
+
+}
 
 /* FACILITET */
 
@@ -299,13 +308,4 @@ h3 {
     background-color:  #334E4E;
 }
 
-#tekstboks p {
-    color: white;
-    font-size: 20px;
-    font-family: 'Source Sans Pro', sans-serif;
-}
 
-#booking_knap {
-    text-align: center;
-
-}
