@@ -134,20 +134,14 @@ a {
     width: 100%;
 }
 
-iframe {}
-
-<<<<<<< HEAD
 
 
 /* CHECK IND */ 
-=======
 #galleri {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    background-color: #396060;
 }
->>>>>>> bb1aadac6377d4d6e950ee9f2b819f12eb374ff2
 
 #checkin {
     background-image: url(images/check_in.png);
@@ -213,11 +207,21 @@ h3 {
     padding-right: 5%;
 }
 
+#tekstboks p {
+    color: white;
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#booking_knap {
+    text-align: center;
+
+}
 
 
 /* FACILITET */
 
-#galleri {
+.galleri {
     display: grid; 
     grid-template-columns: 1fr 1fr; 
     grid-template-rows: 1fr 1fr;
@@ -299,13 +303,95 @@ h3 {
     background-color:  #334E4E;
 }
 
-#tekstboks p {
-    color: white;
-    font-size: 20px;
-    font-family: 'Source Sans Pro', sans-serif;
+
+/*MØDELOKALER*/
+
+
+
+#moede-main {
+    background-image: url(images/moedelokaler.png);
+    width: 100%;
 }
 
-#booking_knap {
-    text-align: center;
+#moede-overskrift {
+    color: white;
+    margin-top: 5%;
+    margin-bottom: 30%;
+    font-size: 250%;
+}
 
+.bgmoede1 {
+    height: 400px; 
+    width: 100%; 
+    background-image: url(images/moedelokale1.png);
+    background-size: cover; 
+    margin-top: 2%; 
+}
+
+.bgmoede2 {
+    height: 400px; 
+    width: 100%; 
+    background-image: url(images/moedelokale2.png);
+    background-size: cover; 
+     
+}
+
+.bgmoede3 {
+    height: 400px; 
+    width: 100%; 
+    background-image: url(images/hotelvaerelse.png);
+    background-size: cover; 
+     
+}
+
+
+.bgmoede4 {
+    height: 400px; 
+    width: 100%; 
+    background-image: url(images/it-hjaelp.png);
+    background-size: cover; 
+     
+}
+
+
+.tekstbox {
+    background-color: #396060; 
+    opacity: 0.8; 
+    height: 300px; 
+    width: 300px; 
+    place-self: center; 
+    margin-top: 8%; 
+}
+
+.facilitettekst {
+    color: white; 
+}
+
+.facilitettekst_p {
+    color: white; 
+    padding-right: 10px; 
+    padding-left: 10px; 
+    padding-top: 20px; 
+}
+
+#vbar {
+    grid-column: 2/3;
+}
+
+.button {
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 0.1em 2em;
+    cursor: hand;
+    transition: background .2s ease-in, transform .25s ease-in-out;
+    width: 30%;
+    margin: 0 auto;
+    margin-bottom: 3%;
+    margin-top: 10%;
+    text-align: center; 
+
+}
+
+.button:hover {
+    background-color:  #334E4E;
 }
