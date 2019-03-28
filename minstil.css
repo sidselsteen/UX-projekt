@@ -154,19 +154,58 @@ h3 {
     padding-top: 50px;
 }
 
-
+#check-overskrift {color: white;}
 
 #check-grid{
- 
     display: grid;
     grid-template-rows: 1fr 1fr;
 }
 
 #checkin_info {
+    background-color: #396060;
+    opacity: 0.8;
     place-self: center;
+    margin: 2%;
+    padding: 3%;
+    color: white;
+    width: 200px;
+    display: grid;
 }
 
-/*restaurant.html*/
+.checkinfelt {
+    margin: 2%;
+    display: grid;
+    grid-auto-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+}
+
+#submit {
+    place-self: center;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 0.5em 2em;
+    cursor: hand;
+    transition: background .2s ease-in, transform .25s ease-in-out;
+    width: 30%;
+    margin: 0 auto;
+    margin-bottom: 3%;
+    margin-top: 5%;
+    text-align: center;
+}
+
+#submit:hover {
+    background-color:  #334E4E;
+}
+
+#keyboard {
+    background-color: #dce2e8;
+    opacity: 0.9;
+    padding: 2%;
+    place-self: center;
+    width: 80%;
+}
+
+/*RESTAURANT*/
 
 #restaurant {
     background-image: url(images/restaurant_v.png);
@@ -212,14 +251,12 @@ h3 {
     font-size: 20px;
     font-family: 'Source Sans Pro', sans-serif;
 }
-<<<<<<< HEAD
+
 
 #booking_knap {
     text-align: center;
 
 }
-=======
->>>>>>> 41942f2bdf44031937030a85c9b378b43a3c6fef
 
 #booking_knap {
     text-align: center;
@@ -231,7 +268,7 @@ h3 {
 .galleri {
     display: grid; 
     grid-template-columns: 1fr 1fr; 
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
 } 
 
 .bgfacilitet1 {
@@ -277,7 +314,7 @@ h3 {
     margin-top: 8%; 
 }
 
-.facilitettekst {
+h3, h4 {
     color: white; 
 }
 
@@ -288,7 +325,7 @@ h3 {
     padding-top: 20px; 
 }
 
-#vbar {
+#vbar, #hoejretekstbox {
     grid-column: 2/3;
 }
 
@@ -303,14 +340,12 @@ h3 {
     margin-bottom: 3%;
     margin-top: 10%;
     text-align: center; 
-
 }
 
 .button:hover {
     background-color:  #334E4E;
 }
 
-<<<<<<< HEAD
 
 /*MØDELOKALER*/
 
@@ -361,48 +396,32 @@ h3 {
      
 }
 
-
-.tekstbox {
+.mtekstbox {
     background-color: #396060; 
     opacity: 0.8; 
     height: 300px; 
-    width: 300px; 
+    width: 400px; 
     place-self: center; 
     margin-top: 8%; 
 }
 
-.facilitettekst {
-    color: white; 
+.m_info {
+    padding: 2%;
 }
 
-.facilitettekst_p {
-    color: white; 
-    padding-right: 10px; 
-    padding-left: 10px; 
-    padding-top: 20px; 
+.m_info li {
+    color: white;
+    list-style-type: none;
 }
 
-#vbar {
+h4 {padding-left: 2%;}
+
+#godbutton, #bedrebutton, #itbutton {
+    margin-top: 5%;
+}
+
+#it_tekstbx {
     grid-column: 2/3;
+    height: 500px; 
+    width: 350px;
 }
-
-.button {
-    background-color: transparent;
-    border: 1px solid white;
-    padding: 0.1em 2em;
-    cursor: hand;
-    transition: background .2s ease-in, transform .25s ease-in-out;
-    width: 30%;
-    margin: 0 auto;
-    margin-bottom: 3%;
-    margin-top: 10%;
-    text-align: center; 
-
-}
-
-.button:hover {
-    background-color:  #334E4E;
-}
-=======
-
->>>>>>> 41942f2bdf44031937030a85c9b378b43a3c6fef
