@@ -257,6 +257,10 @@ h3 {
     text-align: center;
 
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 9fc23e3df3c949476755929d45e213131ccc616b
 
 #booking_knap {
     text-align: center;
@@ -346,6 +350,75 @@ h3, h4 {
     background-color:  #334E4E;
 }
 
+<<<<<<< HEAD
+=======
+
+/* SPØRGSMÅL */ 
+
+#spoergsmaal {
+    background-image: url(images/spg.png); 
+   background-size: cover; 
+    align-items: center; 
+}
+
+#spgbaggrund { 
+background-color: #396060; 
+    padding: 20px; 
+    margin: 10%; 
+    opacity: 0.8; 
+    color: white;
+}
+ 
+h2 {
+    color: white; 
+    font-size: 70px; 
+  text-align: center; 
+    margin-top: 2%;  
+}
+
+/*DROP DOWN BOTTOM */ 
+
+.dropbtn {
+  background-color: gray;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+    width: 800px;
+    margin-left: 9%; 
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #334E4E;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block; 
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+
+>>>>>>> 9fc23e3df3c949476755929d45e213131ccc616b
 
 /*MØDELOKALER*/
 
@@ -420,8 +493,11 @@ h4 {padding-left: 2%;}
     margin-top: 5%;
 }
 
+<<<<<<< HEAD
 #it_tekstbx {
     grid-column: 2/3;
     height: 500px; 
     width: 350px;
 }
+=======
+>>>>>>> 9fc23e3df3c949476755929d45e213131ccc616b
