@@ -257,10 +257,7 @@ h3 {
     text-align: center;
 
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> 9fc23e3df3c949476755929d45e213131ccc616b
 
 #booking_knap {
     text-align: center;
@@ -268,6 +265,19 @@ h3 {
 }
 
 /* FACILITET */
+
+#indhold_facilitet {
+    background-image: url(images/facilitet_baggrund.png);
+   width: 100%; 
+  
+}
+
+#facilitet-overskrift {
+    color: white;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    font-size: 250%;
+}
 
 .galleri {
     display: grid; 
@@ -350,8 +360,7 @@ h3, h4 {
     background-color:  #334E4E;
 }
 
-<<<<<<< HEAD
-=======
+
 
 /* SPØRGSMÅL */ 
 
@@ -378,47 +387,48 @@ h2 {
 
 /*DROP DOWN BOTTOM */ 
 
-.dropbtn {
-  background-color: gray;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
+.accordion {
+  background-color: #eee;
+  color: #444;
   cursor: pointer;
-    width: 800px;
-    margin-left: 9%; 
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
 }
 
-.dropbtn:hover, .dropbtn:focus {
-  background-color: #334E4E;
+.active, .accordion:hover {
+  background-color: #ccc;
 }
 
-.dropdown {
-  position: relative;
-  display: inline-block; 
+.accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
 }
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  overflow: auto;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+.active:after {
+  content: "\2212";
 }
 
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
 }
+
 
 .dropdown a:hover {background-color: #ddd;}
 
 
->>>>>>> 9fc23e3df3c949476755929d45e213131ccc616b
+
 
 /*MØDELOKALER*/
 
@@ -493,11 +503,10 @@ h4 {padding-left: 2%;}
     margin-top: 5%;
 }
 
-<<<<<<< HEAD
+
 #it_tekstbx {
     grid-column: 2/3;
     height: 500px; 
     width: 350px;
 }
-=======
->>>>>>> 9fc23e3df3c949476755929d45e213131ccc616b
+
