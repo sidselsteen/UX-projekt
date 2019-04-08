@@ -1,0 +1,12 @@
+input {
+  width: 300px;
+  height: 100px;
+  padding: 20px;
+  font-size: 20px;
+  box-sizing: border-box;
+}
+
+.simple-keyboard {
+  max-width: 850px;
+    display: none;
+}
