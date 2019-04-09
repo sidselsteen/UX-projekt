@@ -514,3 +514,21 @@ h4 {padding-left: 2%;}
     width: 350px;
 }
 
+#vejrboks {
+    background: #396060;
+    color: white;
+    opacity: 0.8;
+    text-align: center;
+    margin: 20%;
+    padding: 2%;
+}
+
+#vejroverskrift {
+    color: white; 
+}
+
+#vejr {
+    background-image: url(images/vejr.png);
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
